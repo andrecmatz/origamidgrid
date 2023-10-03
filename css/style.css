@@ -65,14 +65,38 @@ img {
     background: rgba(0, 0, 0, .5);
 }
 
-
 .header li + li {
     margin-left: 30px;
 }
 
+/* Sidenav */
+
 .sidenav {
     grid-area: sidenav;
+    background: #fafbfc;
+    padding: 30px;
 }
+
+.sidenav li a {
+    display: block;
+    min-width: 60px;
+    max-width: 100px;
+    margin: 0 auto 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px;
+    transition: .1s ease-out;
+}
+
+.sidenav li a:hover {
+    background: #B07DFB;
+}
+
+
+
+
+
 
 .content {
     grid-area: content;
